@@ -1,16 +1,16 @@
 function RunPython()
 python << EOF
 
-import os
+import vim
 from threading import Thread
 
-def run():
-    os.system('python %')
+def run_python():
+    filename = vim.current.buffer.name
+    vim.os.system('python ' + filename)
 
-p = Thread(target = run, name = 'run')
+p = Thread(target = run_python, name = 'run')
 p.daemon = True
 p.start()
-
 
 EOF
 endfunction
