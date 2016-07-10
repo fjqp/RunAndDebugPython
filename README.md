@@ -5,7 +5,7 @@ Vim plugin can be used to run and debug python program.
 ![image](https://github.com/fjqp/RunAndDebugPython/blob/master/images/2.gif)
 ![image](https://github.com/fjqp/RunAndDebugPython/blob/master/images/3.gif)
 ###debug
-
+![image](https://github.com/fjqp/RunAndDebugPython/blob/master/images/4.gif)
 ## How to install it by vundle on windows operation system?
 * Download python installer and vim installer, then install their. Note: vim must support python language.
 * Add Bundle "fjqp/RunAndDebugPython" in your "_vimrc"file.
